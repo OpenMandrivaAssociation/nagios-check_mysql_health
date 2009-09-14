@@ -1,7 +1,7 @@
 %define up_name	check_mysql_health
 %define name	nagios-%{up_name}
 %define version	2.0.3
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
