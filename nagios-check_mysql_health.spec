@@ -1,7 +1,7 @@
 %define up_name	check_mysql_health
 %define name	nagios-%{up_name}
 %define version	2.0.3
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Name:		%{name}
 Version:	%{version}
@@ -33,7 +33,7 @@ rm -rf %{buildroot}
 install -d -m 755 %{buildroot}%{_sysconfdir}/nagios/plugins.d
 cat > %{buildroot}%{_sysconfdir}/nagios/plugins.d/check_mysql_health.cfg <<'EOF'
 define command{
-	command_name	check_zone_auth
+	command_name	check_mysql_health
 	command_line	%{_libdir}/nagios/plugins/check_mysql_health
 }
 EOF
