@@ -3,7 +3,7 @@
 Summary:	Check MySQL
 Name:		nagios-%{up_name}
 Version:	2.1.1
-Release:	%mkrel 1
+Release:	%mkrel 3
 Group:		Networking/Other
 License:	GPL
 URL:		http://www.consol.de/opensource/nagios/check-mysql-health/
