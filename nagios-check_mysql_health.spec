@@ -2,12 +2,12 @@
 
 Summary:	Check MySQL
 Name:		nagios-%{up_name}
-Version:	2.1.1
-Release:	%mkrel 5
+Version:	2.1.5
+Release:	%mkrel 1
 Group:		Networking/Other
 License:	GPL
 URL:		http://www.consol.de/opensource/nagios/check-mysql-health/
-Source0:	http://labs.consol.de/wp-content/uploads/2010/03/%{up_name}-%{version}.tar.gz
+Source0:	http://labs.consol.de/wp-content/uploads/2010/12/%{up_name}-%{version}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
