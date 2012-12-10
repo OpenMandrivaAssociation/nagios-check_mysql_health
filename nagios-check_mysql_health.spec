@@ -47,3 +47,45 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_mysql_health.cfg
 %{_datadir}/nagios/plugins/check_mysql_health
+
+
+%changelog
+* Thu Apr 14 2011 Oden Eriksson <oeriksson@mandriva.com> 2.1.5.1-1mdv2011.0
++ Revision: 652918
+- 2.1.5.1
+
+* Sun Apr 10 2011 Oden Eriksson <oeriksson@mandriva.com> 2.1.5-1
++ Revision: 652250
+- 2.1.5
+
+* Thu Mar 17 2011 Oden Eriksson <oeriksson@mandriva.com> 2.1.1-5
++ Revision: 645846
+- relink against libmysqlclient.so.18
+
+* Sat Jan 01 2011 Oden Eriksson <oeriksson@mandriva.com> 2.1.1-4mdv2011.0
++ Revision: 627264
+- rebuilt against mysql-5.5.8 libs, again
+
+* Thu Dec 30 2010 Oden Eriksson <oeriksson@mandriva.com> 2.1.1-3mdv2011.0
++ Revision: 626545
+- rebuilt against mysql-5.5.8 libs
+
+* Wed Nov 17 2010 Oden Eriksson <oeriksson@mandriva.com> 2.1.1-1mdv2011.0
++ Revision: 598383
+- 2.1.1
+- it's really noarch
+
+* Mon Nov 15 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.3-3mdv2011.0
++ Revision: 597624
+- duh!
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Tue Mar 24 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.0.3-1mdv2009.1
++ Revision: 360944
+- import nagios-check_mysql_health
+
+
+* Tue Mar 24 2009 Guillaume Rousse <guillomovitch@mandriva.org> 2.0.3-1mdv2009.1
+- first mdv release
