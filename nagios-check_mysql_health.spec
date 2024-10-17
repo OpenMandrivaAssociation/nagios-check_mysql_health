@@ -6,7 +6,7 @@ Version:	2.1.5.1
 Release:	2
 Group:		Networking/Other
 License:	GPL
-URL:		http://www.consol.de/opensource/nagios/check-mysql-health/
+URL:		https://www.consol.de/opensource/nagios/check-mysql-health/
 Source0:	http://labs.consol.de/wp-content/uploads/2011/04/check_mysql_health-2.1.5.1.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl
