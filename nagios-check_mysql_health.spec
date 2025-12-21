@@ -9,6 +9,11 @@ License:	GPL
 URL:		https://www.consol.de/opensource/nagios/check-mysql-health/
 Source0:	http://labs.consol.de/wp-content/uploads/2011/04/check_mysql_health-2.1.5.1.tar.gz
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
